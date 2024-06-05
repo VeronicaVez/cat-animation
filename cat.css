@@ -7,42 +7,42 @@ body{
     position: absolute;
     top: 40%;
     left: 40%;
-    border-radius: 50px 120px 0px 0px;
+    border-radius: 70px 70px 0px 0px;
 }
 
 .head{
     background-color: #E88D67;
-    width:250px;
+    width:220px;
     height: 150px;
     position: relative;
     top:-150px;
-    left:-50px;
+    left:0px;
     border-radius: 70px;
 }
 
 .eye1, .eye2{
-    background-color: #D9EDBF;
-    width:40px;
-    height: 40px;
+    background-color: black;
+    width:32px;
+    height: 30px;
     position: relative;
     border-radius: 60px 60px 60px 60px;
 }
 
 .eye1{
-    top: -80px;
+    top: -70px;
     left:50px;
 }
 
 .eye2{
-    top: -120px;
-    left:150px;
+    top: -100px;
+    left:140px;
 }
 
 .iris1,
 .iris2{
-    background-color: black;
-    width: 20px;
-    height: 20px;
+    background-color: white;
+    width: 2px;
+    height: 2px;
     position: relative;
     border-radius: 60px 60px 60px 60px;
 }
@@ -75,7 +75,7 @@ width: 0;
 
 .ear2{
     top: -100px;
-    left:190px;
+    left:170px;
     border-right: 20px solid transparent;
     border-left: 30px solid transparent;
     transform: rotate(25deg);
@@ -113,35 +113,35 @@ width: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     position:relative;
-    top: -110px;
-    left: 105px;
+    top: -90px;
+    left: 95px;
 }
 
 .whisker1 {
     background-color: black;
     width: 60px;
-    height: 1px;
+    height: 2px;
     position:relative;
-    top: -130px;
-    left: 210px;
+    top: -110px;
+    left: 180px;
     transform: rotate(-25deg);
 }
 
 .whisker2 {
     background-color: black;
     width: 60px;
-    height: 1px;
+    height: 2px;
     position: relative;
-    top: -110px;
-    left: 210px;
+    top: -90px;
+    left: 180px;
 }
 
 .whisker3 {
     background-color: black;
     width: 60px;
-    height: 1px;
+    height: 2px;
     position: relative;
-    top: -130px;
+    top: -110px;
     left: -20px;
     transform: rotate(25deg);
 }
@@ -149,34 +149,34 @@ width: 0;
 .whisker4 {
     background-color: black;
     width: 60px;
-    height: 1px;
+    height: 2px;
     position: relative;
     left: -20px;
-    top: -110px;
+    top: -90px;
 }
 
 .whisker5 {
     background-color: black;
     width: 60px;
-    height: 1px;
+    height: 2px;
     position: relative;
-    top: -90px;
-    left: 210px;
+    top: -70px;
+    left: 180px;
     transform: rotate(25deg);
 }
 
 .whisker6 {
     background-color: black;
     width: 60px;
-    height: 1px;
+    height: 2px;
     position: relative;
-    top: -90px;
+    top: -70px;
     left:-20px;
     transform: rotate(-25deg);
 }
 
 .leg1, .leg2{
-    background-color: #E88D67;
+    background-image: linear-gradient(180deg, #E88D67 0%,white 30%, white 100%);
     width: 30px;
     height: 30px;
     position: relative;
@@ -184,17 +184,18 @@ width: 0;
 }
 
 .leg1{
-    top: 80px;
+    top: -50px;
+    left:60px;
 }
 
 .leg2 {
-    top: 50px;
-    left: 60px;
+    top: -80px;
+    left: 120px;
 }
 
 .tail{
     background-color: #E88D67;
-    width: 120px;
+    width: 40px;
     height: 25px;
     position: relative;
     left: 220px;
@@ -203,11 +204,49 @@ width: 0;
 
 .tail2 {
     background-color: #E88D67;
-    width: 120px;
+    width: 60px;
+    height: 25px;
+    position: relative;
+    left: 220px;
+    border-radius: 50px 50px 50px 50px;
+    transform: rotate(-20deg);
+    top:-6px;
+    left: 20px;
+}
+
+.tail3 {
+    background-color: #E88D67;
+    width: 80px;
+    height: 25px;
+    position: relative;
+    left: 220px;
+    border-radius: 50px 50px 50px 50px;
+    transform: rotate(-50deg);
+    top: -63px;
+    left: 50px;
+}
+
+.tail4 {
+    background-color: #E88D67;
+    width: 40px;
+    height: 25px;
+    position: relative;
+    left: 220px;
+    border-radius: 20px 50px 50px 20px;
+    transform: rotate(-60deg);
+    top: -128px;
+    left: 100px;
+}
+
+.tail5 {
+    background-image: linear-gradient(90deg, #E88D67 10%, white 50%, white 100%);
+    width: 50px;
     height: 25px;
     position: relative;
     left: 20px;
     border-radius: 0px 50px 50px 0px;
-    transform: rotate(-25deg);
+    transform: rotate(-60deg);
+    top: -180px;
+    left: 110px;
 }
 
